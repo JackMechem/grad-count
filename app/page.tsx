@@ -35,13 +35,13 @@ export default function Home() {
   });
 
   return (
-    <main className="w-full h-full bg-black text-white font-semibold text-[5vw] text-center flex items-center justify-center">
+    <main className="w-full h-full bg-gray-950 text-white font-semibold text-[5vw] text-center flex items-center justify-center">
       {graduated ? (
         <div className="bg-slate-900 p-10 rounded-2xl border border-slate-700 shadow-slate-900 shadow-lg text-center">
           <p>NO MORE BOWEN</p>
         </div>
       ) : (
-        <div className="bg-slate-900 p-10 rounded-2xl border border-slate-700 shadow-slate-900 shadow-lg text-center">
+        <div className="bg-slate-900 py-10 rounded-2xl border border-slate-700 shadow-slate-900 shadow-lg text-center min-w-[50%]">
           <p>Graduation</p>
           <span>{countdown}</span>
         </div>
